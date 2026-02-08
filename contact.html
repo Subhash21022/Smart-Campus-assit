@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Smart Campus Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Smart<span>Campus</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Get in Touch</h1>
+        <p>Have questions, suggestions, or feedback? We'd love to hear from you!</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Fill out the form and our team will get back to you within 24 hours. You can also reach us directly using the information below.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="icon">📍</div>
+                            <div>
+                                <strong>Address</strong>
+                                <p>Campus Building A, Room 101<br>University Avenue, City</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="icon">📧</div>
+                            <div>
+                                <strong>Email</strong>
+                                <p>support@smartcampus.edu</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="icon">📞</div>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="icon">🕐</div>
+                            <div>
+                                <strong>Office Hours</strong>
+                                <p>Mon - Fri: 9:00 AM - 5:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="How can we help you?" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="form-btn">Send Message</button>
+                    
+                    <div class="success-message">
+                        <strong>Thank you!</strong> Your message has been sent successfully. We'll get back to you soon.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" style="background: #f1f3f5;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions about Smart Campus Assistant.</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Is it free to use?</h3>
+                    <p>Yes! Smart Campus Assistant is completely free for all enrolled students and faculty members.</p>
+                </div>
+                <div class="about-card">
+                    <h3>How do I report a bug?</h3>
+                    <p>Use the contact form above or email us directly at support@smartcampus.edu with details about the issue.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Can I suggest new features?</h3>
+                    <p>Absolutely! We love hearing from our users. Send us your ideas through the contact form.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">SmartCampus</div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="features.html">Features</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Smart Campus Assistant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
